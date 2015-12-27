@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="inf4042_kechchany_hec.myusefullapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <activity android:name="com.packagename.MainActivity" />
+    <activity android:name="com.packagename.Main2Activity" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".Main7Activity" />
+        <activity android:name=".Main71Activity" />
+        <activity android:name=".Main72Activity" />
+        <activity android:name=".Main73Activity" />
+        <activity android:name=".Main74Activity" />
+        <activity android:name=".Main75Activity" />
+        <activity android:name=".Main76Activity" />
+        <activity android:name=".Main77Activity" />
+        <activity android:name=".Main78Activity" />
+        <activity android:name=".Main79Activity" />
+        <activity android:name=".Main22Activity" />
+        <activity android:name=".Main8Activity" />
+        <activity android:name=".Main81Activity" />
+        <activity android:name=".Main82Activity" />
+        <activity android:name=".Main83Activity" />
+        <activity android:name=".Main84Activity" />
+        <activity android:name=".Main85Activity" />
+        <activity android:name=".Main86Activity" />
+        <activity android:name=".Main87Activity" />
+        <activity android:name=".Main88Activity" />
+        <activity android:name=".Main89Activity" />
+        <activity android:name=".Main23Activity" />
+        <activity
+            android:name=".Main90Activity"
+            android:label="@string/title_activity_main90" />
+        <activity android:name=".Main24Activity" />
+        <activity android:name=".Main25Activity"></activity>
+    </application>
+
+</manifest>

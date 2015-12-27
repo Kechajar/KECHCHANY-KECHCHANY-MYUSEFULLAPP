@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="inf4042_kechchany_hec.myusefullapp.Main75Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/mariage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/textView25" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="376dp"
+        android:id="@+id/scrollView">
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mariage"
+        android:id="@+id/textView26"
+        android:textSize="40dp"
+        android:textColor="#8e81a1"
+        android:textStyle="bold"
+        android:height="@dimen/abc_action_bar_stacked_max_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Après quelques années de vie commune, un jeune homme décide de se marier   avec sa petite amie.   Comme il n&apos;est pas du tout au courant des traditions, à la fin de la  messe, il s&apos;approche du curé et lui demande :      - Excusez-moi mon père, je sais qu&apos;il est de tradition que les jeunes mariés fassent une offrande au prêtre qui a célébré le mariage, mais je ne sais pas ce que les gens donnent en général.  Le prêtre lui répond dans le creux de l&apos;oreille :       - En général, c&apos;est en fonction de la beauté de la mariée. Plus elle est belle, plus la somme est élevée. A ces mots, le jeune marié se tourne vers sa femme. Il hésite quelques instants, plonge la main dans sa poche et tend une pièce d&apos;un franc au curé.                  Le prêtre, compatissant, lui dit :        - Ne bougez pas, je vais vous rendre la monnaie.."
+        android:id="@+id/textView25"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

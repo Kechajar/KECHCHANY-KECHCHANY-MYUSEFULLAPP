@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="inf4042_kechchany_hec.myusefullapp.Main89Activity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/mange"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textView31"
+        android:layout_below="@+id/textView32"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ingrédients (pour 2 gourmands) : - 1 mangue bien mûre - 1 banane bien mûre également - 1 petite brique de lait de coco - 1 cuillère à soupe de sucre de canne - 1 bouchon de rhum  Préparation de la recette :  Coupez la mangue et la banane en dés. Versez le lait de coco dans un petit saladier ainsi que le rhum et le sucre. Mélangez et versez les fruits coupés. Réservez au frais pendant 1h en mélangeant de temps en temps puis servez dans des coupelles en ayant saupoudré de noix de coco râpée. Bonne dégustation! ;)"
+        android:id="@+id/textView31"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Salade mangue"
+        android:id="@+id/textView32"
+        android:textSize="40dp"
+        android:textColor="#8e81a1"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
